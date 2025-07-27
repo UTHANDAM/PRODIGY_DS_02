@@ -3,9 +3,7 @@
 <img src="Prodigy_task_02.jpg" alt="Banner" style="width:100%; max-width:700px;">
 
 Hey there 👋  
-I'm **Uthandam**, and this repository contains my submission for **Task 2** of the **Prodigy InfoTech Data Science Internship**.
-
-In this task, I performed **Data Cleaning** and **Exploratory Data Analysis (EDA)** on a real-world dataset from Kaggle to discover insights, relationships, and trends hidden in the data.
+I'm **Uthandam**, and this repository contains my submission for **Task 2** of the **Prodigy InfoTech Data Science Internship**.In this task, I performed **Data Cleaning** and **Exploratory Data Analysis (EDA)** on a real-world dataset from Kaggle to discover insights, relationships, and trends hidden in the data.
 
 ---
 
