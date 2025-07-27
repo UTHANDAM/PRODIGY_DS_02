@@ -1,103 +1,102 @@
-#PRODIGY_DS_02
-
-#  Prodigy Infotech – Data Science Internship (Task 2)
+# 🧹 Prodigy Infotech – Data Science Internship (Task 2)
 
 <img src="Prodigy_task_02.jpg" alt="Banner" style="width:100%; max-width:700px;">
 
-Hello world   
-I'm **Uthandam**, and this is my submission for **Task 2** of the **Prodigy InfoTech Data Science Internship**.
+Hey there 👋  
+I'm **Uthandam**, and this repository contains my submission for **Task 2** of the **Prodigy InfoTech Data Science Internship**.
 
-In this task, I performed **data cleaning** and **exploratory data analysis (EDA)** on a real-world dataset, drawing insights from its patterns and visualizing the relationships between various variables.
-
----
-
-## 🗂️ Task Description
-
-> “Perform data cleaning and exploratory data analysis (EDA) on a dataset of your choice, such as the Titanic dataset from Kaggle. Explore the relationships between variables and identify patterns and trends in the data.”
-
-📎 **Sample Dataset Reference:**  
-[Click to View Dataset Repository](https://github.com/Prodigy-InfoTech/data-science-datasets/tree/main/Task%202)
+In this task, I performed **Data Cleaning** and **Exploratory Data Analysis (EDA)** on a real-world dataset from Kaggle to discover insights, relationships, and trends hidden in the data.
 
 ---
 
-## 📁 Dataset Used
+## 📜 Task Description
 
-For this task, I used the **Titanic Dataset**, a classic dataset used to predict survival based on features like age, gender, ticket class, and more. The dataset is rich with patterns and perfect for EDA practice.
+> Perform data cleaning and exploratory data analysis (EDA) on a dataset of your choice, such as the Titanic dataset from Kaggle. Explore the relationships between variables and identify patterns and trends in the data.
 
-📄 **Filename:** `test.csv`  
-🧩 **Features include**:
-- `PassengerId`
-- `Pclass` (Ticket class)
-- `Name`
-- `Sex`
-- `Age`
-- `SibSp` (Siblings/Spouses aboard)
-- `Parch` (Parents/Children aboard)
-- `Fare`
+📌 **Dataset Reference:**  
+[https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
+
+---
+
+## 🌍 About the Dataset
+
+For this task, I used the famous [**Titanic - Machine Learning from Disaster**](https://www.kaggle.com/c/titanic/data) dataset — a classic for data scientists and machine learning practitioners. It provides details of passengers aboard the Titanic and aims to predict survival based on their attributes.
+
+The dataset includes three files:
+
+- `train.csv` – Training data with known survival outcomes
+- `test.csv` – Test data for prediction (used in this task)
+- `gender_submission.csv` – Sample submission file
+
+🧩 I focused on the **`test.csv`** file for EDA. Key features include:
+
+- `PassengerId`  
+- `Pclass` (Ticket Class)  
+- `Name`  
+- `Sex`  
+- `Age`  
+- `SibSp` (Siblings/Spouses aboard)  
+- `Parch` (Parents/Children aboard)  
+- `Fare`  
 - `Embarked` (Port of Embarkation)
-- And more...
 
 ---
 
-## ⚙️ Tools & Libraries Used
+## 🧰 Tools & Libraries
 
-The following Python libraries were used for cleaning, analyzing, and visualizing the dataset:
+This project was developed using **Python** in a **Jupyter Notebook** environment with the following libraries:
 
-- `pandas` – for data manipulation
-- `numpy` – for numerical operations
-- `matplotlib` – for basic plotting
-- `seaborn` – for enhanced data visualization
-- `missingno` – to visualize missing values (optional but cool!)
-
----
-
-## 🔎 My EDA Process
-
-### 1. **Understanding the Data**
-- Loaded the CSV
-- Displayed shape, types, and column info
-- Used `.describe()` to get summary stats
-
-### 2. **Cleaning the Data**
-- Detected and handled missing values (e.g., imputed `Age`, dropped or filled `Embarked`)
-- Converted categorical values into readable formats
-- Handled duplicates and outliers
-
-### 3. **Visualizing Relationships**
-- Countplots for `Survived`, `Sex`, and `Pclass`
-- Age distribution histograms
-- Heatmaps for correlation
-- Boxplots for Age across different passenger classes
-- Pie charts to explore survival percentages
+- `pandas` and `numpy` – Data handling and preprocessing  
+- `matplotlib` and `seaborn` – Visualization and plotting  
+- `missingno` – To visually inspect missing data  
+- Jupyter Notebook – For documenting analysis step-by-step
 
 ---
 
-## 📊 Key Insights
+## 🔍 What I Did – A Quick Walkthrough
 
-- **Gender Matters:** Females had a higher survival rate compared to males.
-- **Class Counts:** Passengers in higher classes had better chances of survival.
-- **Age Trends:** Young children and adults had different survival patterns.
-- **Embarkation Influence:** Port of embarkation had a minor impact on survival trends.
+### 1. 📂 Understanding the Data
+- Loaded the `test.csv` file  
+- Explored shape, columns, and types  
+- Used `.info()` and `.describe()` for basic insights
 
----
+### 2. 🧼 Cleaning the Data
+- Detected and handled missing values (`Age`, `Fare`, `Embarked`)  
+- Filled nulls using techniques like median imputation  
+- Converted data types where needed  
+- Ensured consistency for analysis
 
-## ✅ Conclusion
-
-Through this task, I dove deep into the Titanic dataset and uncovered some fascinating patterns. This hands-on EDA task sharpened my skills in:
-
-- Data cleaning and preprocessing  
-- Visual storytelling through plots  
-- Understanding real-world data challenges
-
-It’s amazing how raw CSV files can unfold stories when decoded with the right tools!
-
----
-
-## 💬 Let's Connect
-
-If you'd like to discuss this project or collaborate on something new, feel free to reach out on [LinkedIn](https://linkedin.com/) or drop a ⭐ on the repo!
+### 3. 📊 Visualizing Patterns
+- Countplots for `Pclass`, `Sex`, and `Embarked`  
+- Boxplots for fare distribution across classes  
+- Histograms to visualize age spread  
+- Heatmaps to identify correlation between numeric variables  
+- Pie charts to understand categorical proportions
 
 ---
 
-> “Behind every number, there’s a story. EDA helps us find it.”
+## 💡 Key Takeaways
 
+- **Class Difference**: Ticket class impacts features like fare and likely survival  
+- **Gender Balance**: Slightly more males than females in the dataset  
+- **Missing Values**: Age was the most common missing feature — median-based imputation worked well  
+- **Fare Outliers**: Found some extreme fare values that were visualized and analyzed  
+- **Age Distribution**: Passengers span a wide age range, with clustering around young adults
+
+---
+
+## 🎯 Conclusion
+
+This task allowed me to practice and demonstrate core data science steps:
+- Data ingestion  
+- Cleaning and preprocessing  
+- Exploratory Data Analysis  
+- Visual storytelling using plots
+
+I enjoyed exploring the Titanic dataset and surfacing insights from raw data. This task sharpened my understanding of EDA and reinforced the importance of prepping data before diving into modeling.
+
+
+---
+
+Thanks for checking out my work! 🙌  
+Feel free to explore the notebook and reach out for any feedback or collaboration 🚀
