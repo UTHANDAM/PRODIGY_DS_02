@@ -91,10 +91,11 @@ This task allowed me to practice and demonstrate core data science steps:
 - Exploratory Data Analysis  
 - Visual storytelling using plots
 
-I enjoyed exploring the Titanic dataset and surfacing insights from raw data. This task sharpened my understanding of EDA and reinforced the importance of prepping data before diving into modeling.
+This task focused on exploring and understanding the Titanic dataset by cleaning data and generating insightful visualizations. It provided valuable experience in data preprocessing and exploratory analysis.
+
 
 
 ---
 
 Thanks for checking out my work! 🙌  
-Feel free to explore the notebook and reach out for any feedback or collaboration 🚀
+
